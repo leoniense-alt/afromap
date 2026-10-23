@@ -51,7 +51,7 @@ Vérifications encore à faire : apparition du bandeau de cookies, présence du 
 ## 4. Contenu de la version du 23 octobre (ce qui doit être en ligne)
 
 ### Accueil
-- Titre (balise `<title>`) : « AfroMap · Adresses afro-caribéennes à Paris et en IDF » (53 caractères).
+- Titre (balise `<title>`) : « AfroMap · Adresses afro-caribéennes à Paris et en IDF, dès 2027 » (63 caractères, choisi par Léonie le 23 octobre 2026 ; retirer « , dès 2027 » après le lancement). Le même titre doit figurer dans la balise `<title>` et dans le script qui change le titre selon la partie affichée (fonction `showView`).
 - Meta description sous 155 caractères.
 - FAQ utilisatrices de 8 questions, section « Vos questions sur AfroMap », avec balisage `FAQPage` (JSON-LD).
 - Parle encore du label KOUDMEN et des co-constructeurs côté utilisateurs : laissé tel quel volontairement.
