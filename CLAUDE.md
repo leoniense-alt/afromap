@@ -44,12 +44,9 @@ fonts/                → polices auto-hébergées
 
 Vérifier la structure réelle du dépôt avant toute modification : l'arborescence ci-dessus reflète ce qui est connu, pas forcément l'état exact.
 
-**⚠️ Fichiers « VERSION FINALE 2 » du 23 octobre 2026** : une nouvelle version de l'accueil, de la page commerçants et du sitemap.xml a été préparée mais **n'est pas encore sur GitHub**. Elle se trouve sur l'ordinateur de Léonie :
-`OneDrive\Bureau\Application Mobile AfroMap\Site afromap.fr\2026-10-23 - Version finale 2 (à déposer sur GitHub)\`
-- `1 - Accueil (racine du site)` : index.html + sitemap.xml → à la racine du dépôt
-- `2 - Dossier commercants` : index.html → dans `commercants/`
+**Version en ligne : « VERSION FINALE 2 » du 23 octobre 2026**, constatée en ligne le 23 octobre au soir (FAQ « Vos questions sur AfroMap » sur l'accueil, FAQ commerçants avec « Et après les 100 premiers commerces ? »). C'est la version de référence : partir de ce qui est dans le dépôt. Une copie existe aussi sur l'ordinateur de Léonie (`OneDrive\Bureau\Application Mobile AfroMap\Site afromap.fr\2026-10-23 - Version finale 2 (à déposer sur GitHub)\`).
 
-**Avant tout autre travail, vérifier si ces fichiers ont été déposés.** Si le dépôt contient encore l'ancienne version (pas de bandeau cookies, pas de FAQ « Vos questions sur AfroMap », titre de l'accueil différent de « AfroMap · Adresses afro-caribéennes à Paris et en IDF »), demander à Léonie de fournir ces fichiers plutôt que de refaire le travail.
+Vérifications encore à faire : apparition du bandeau de cookies, présence du sitemap.xml daté du 23 octobre à la racine.
 
 ## 4. Contenu de la version du 23 octobre (ce qui doit être en ligne)
 
@@ -136,6 +133,8 @@ Vérifier la structure réelle du dépôt avant toute modification : l'arboresce
 
 - **Ô Petit Club Africain** est présenté comme « premier partenaire » alors que le contrat **n'est pas signé** : retirer ou reformuler cette mention.
 - **Photo de la verrière** : montre probablement des œuvres de l'artiste ELKA, sans accord écrit. À retirer ou remplacer avant d'envoyer des restaurateurs vers le site.
+
+Petite correction typographique en attente : l'espace avant « ? » est irrégulier dans la FAQ commerçants (« coûte ? » mais « candidater? »). Harmoniser avec une espace insécable fine (`&#8239;`) avant « ? », « ! », « : », « ; » sur tout le site.
 
 ## 11. Travaux SEO prévus (avant le lancement)
 
