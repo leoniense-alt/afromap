@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AfroMap · Adresses afro-caribéennes à Paris et en IDF</title>
+<title>AfroMap · Adresses afro-caribéennes à Paris et en IDF, dès 2027</title>
 <meta name="description" content="L’appli AfroMap sélectionne les meilleurs restaurants, épiceries fines et événements afro-caribéens de Paris et d’Île-de-France. Gratuite, début 2027.">
 <meta property="og:title" content="AfroMap · Les meilleures adresses afro-caribéennes">
 <meta property="og:description" content="Les meilleurs restaurants, épiceries fines et événements afro-caribéens de Paris et d’Île-de-France, recommandés comme par un ami. Rejoignez la liste d’attente.">
@@ -1065,7 +1065,7 @@ const AFROMAP_PREUVES={
       Object.entries(views).forEach(([k,el])=>{if(el)el.hidden=k!==name;});
       document.querySelectorAll('[data-view-link]').forEach(a=>{if(a.dataset.viewLink===name)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
       document.querySelectorAll('[data-only]').forEach(el=>el.hidden=el.dataset.only!==(name==='legal'?'users':name));
-      document.title=name==='pros'?'Espace commerçants : rejoignez la sélection AfroMap | AfroMap':(name==='legal'?'Mentions légales et confidentialité | AfroMap':'Restaurants africains et antillais à Paris et en Île-de-France | AfroMap');
+      document.title=name==='pros'?'Commerçants : rejoignez la sélection AfroMap':(name==='legal'?'Mentions légales et confidentialité | AfroMap':'AfroMap · Adresses afro-caribéennes à Paris et en IDF, dès 2027');
     }
     const el=target&&document.getElementById(target);
     if(el&&target!=='commercants'&&target!=='accueil')el.scrollIntoView();else window.scrollTo(0,0);
