@@ -12,12 +12,12 @@ Contexte pour poursuivre le développement du site afromap.fr. Mise à jour : 22
 - **Lancement : début 2027, en commençant exclusivement par les restaurants.** Épiceries, salons de coiffure et de beauté, événements : plus tard, à annoncer uniquement au futur, sans date.
 - **Signature officielle** : « Les bonnes adresses, choisies avec exigence. »
 - **Émotions** : confiance, clarté, excellence, authenticité. **Valeurs** : solidarité, excellence, rayonnement.
-- **Public principal** : consommatrices et consommateurs (tutoiement). **Second public** : restaurateurs (vouvoiement).
+- **Public principal** : consommatrices et consommateurs (vouvoiement, décision du 22 novembre 2026). **Second public** : restaurateurs (vouvoiement).
 - Ne jamais afficher les prénoms des personas (Sarah, Nadia) sur le site.
 
 ## 2. Architecture de l'offre (décisions de novembre 2026)
 
-- **Sélection AfroMap** : seul label. Attribué selon une grille de critères publics, ne s'achète pas, peut être retiré. Critères restaurants : qualité de la cuisine, accueil, clarté des prix, cadre et propreté, régularité de l'expérience. Sur chaque fiche : bloc « Pourquoi nous la recommandons », sans autre badge.
+- **Sélection AfroMap** : seul label. Attribué selon cinq critères (grille complète publiée avant le lancement : ne pas écrire « critères publics » avant), ne s'achète pas, peut être retiré. Critères restaurants : qualité de la cuisine, accueil, clarté des prix, cadre et propreté, régularité de l'expérience. Sur chaque fiche : bloc « Pourquoi nous la recommandons », sans autre badge.
 - **Référencée** : fiche gratuite, créée et tenue à jour par le commerce. Pas d'évaluation. Toujours affichée séparément de la Sélection.
 - **Offre professionnelle** : en préparation. **Aucun prix affiché** (tarifs non validés). Ne donne jamais accès au label.
 - **Commerçants fondateurs** (seul nom officiel) : statut de co-construction (entretiens, tests, retours). Les 10 premiers de chaque type de commerce (au lancement : les 10 premiers restaurants) ont 3 mois de l'offre professionnelle offerts, sans engagement. Ne donne pas accès au label.
@@ -37,7 +37,7 @@ Contexte pour poursuivre le développement du site afromap.fr. Mise à jour : 22
 ## 4. Structure du site (depuis la refonte)
 
 ```
-/                    index.html            accueil (public, tutoiement)
+/                    index.html            accueil (public, vouvoiement)
 /commercants/        index.html            espace commerçants (vouvoiement)
 /mentions-legales/   index.html
 /confidentialite/    index.html
@@ -49,14 +49,14 @@ fonts/               polices auto-hébergées
 og-image.jpg, apple-touch-icon.png, sitemap.xml, robots.txt
 ```
 
-- Les anciens liens `/#confidentialite` et `/#mentions-legales` sont redirigés par `assets/site.js` vers les nouvelles pages (les formulaires Tally pointent encore vers `/#confidentialite`).
-- Les photos de `photos/` (Ô Petit Club Africain, verrière) **ne sont plus utilisées** : pas d'accord écrit. Ne pas les réutiliser sans accord. Les emplacements « photo à remplacer » attendent des photos autorisées.
+- Les anciens liens `/#confidentialite` et `/#mentions-legales` sont redirigés par `assets/site.js` vers les nouvelles pages (le sondage ou d’anciens partages peuvent encore les utiliser).
+- Les photos de `photos/` ne sont pas affichées : ne pas les réutiliser. Les trois photos de `assets/img/photos/` (Ô Petit Club Africain) sont affichées avec la mention « Photos : © Ô Petit Club Africain » et ne valent pas sélection. À retirer au plus tard 30 jours après le lancement, sauf nouvel accord.
 - Après une modification de `site.css` ou `site.js`, changer le numéro `?v=` dans les pages pour forcer la mise à jour des navigateurs.
 
 ## 5. Formulaires Tally
 
 **Ne jamais changer ces identifiants.**
-- Liste d'attente « Rejoins-nous en avant-première » : `rjzMr5` (préremplissage prévu via les paramètres `prenom` et `email`).
+- Liste d'attente « Rejoignez-nous en avant-première » : `rjzMr5` (préremplissage prévu via les paramètres `prenom` et `email`).
 - Candidature « Proposer mon commerce » : `b5bQ42`
 - « Recommander une adresse ou un événement » : `XxZPBd`
 - Sondage « Vos sorties, vos bonnes adresses » : `LDZDoO`
@@ -69,7 +69,7 @@ Les paramètres `utm_source`, `utm_medium`, `utm_campaign` de l'adresse visitée
 - Événement mesuré : `ouverture_formulaire` (paramètres `formulaire`, `emplacement`).
 - Ne jamais ajouter d'autre traceur sans bandeau mis à jour et accord de Léonie.
 
-## 7. Charte v1.2
+## 7. Charte : brand kit « Final et vérifié » (affiché v1.2, 22 novembre 2026)
 
 | Rôle | Couleur |
 |---|---|
@@ -79,7 +79,9 @@ Les paramètres `utm_source`, `utm_medium`, `utm_campaign` de l'adresse visitée
 | Excellence, détails seulement | or `#E2B04F` |
 | Accent rare, formes uniquement | rose `#D12864` (jamais de texte rose sur violet, jamais dans le logo) |
 
-- Polices : Bricolage Grotesque 800 (titres), Figtree (textes).
+- Polices : Bricolage Grotesque 800 (titres) et 600 (sous-titres), Figtree (textes).
+- Badge or : réservé à la Sélection, jamais à une offre.
+- En-tête : toujours le SVG horizontal officiel, jamais le nom retapé.
 - Logo v1.2 : M à deux sommets avec un point or (`assets/img/`). Ne pas le modifier.
 - Interdits : clichés folkloriques (carte de l'Afrique, wax plaqué, palmiers), images générées présentées comme de vrais lieux, superlatifs invérifiables.
 
