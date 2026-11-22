@@ -42,15 +42,15 @@ Contexte pour poursuivre le développement du site afromap.fr. Mise à jour : 22
 /mentions-legales/   index.html
 /confidentialite/    index.html
 404.html
-assets/site.css      styles communs (charte)
-assets/site.js       formulaires Tally, mesure, cookies, redirection des anciens liens
-assets/img/          logo v1.2 (SVG)
+site.css             styles communs (charte)
+site.js              formulaires Tally, mesure, cookies, redirection des anciens liens
+assets/img/          logo v1.2 (SVG) ; logo horizontal, photos club-* et police 600 : à la racine
 fonts/               polices auto-hébergées
 og-image.jpg, apple-touch-icon.png, sitemap.xml, robots.txt
 ```
 
-- Les anciens liens `/#confidentialite` et `/#mentions-legales` sont redirigés par `assets/site.js` vers les nouvelles pages (le sondage ou d’anciens partages peuvent encore les utiliser).
-- Les photos de `photos/` ne sont pas affichées : ne pas les réutiliser. Les trois photos de `assets/img/photos/` (Ô Petit Club Africain) sont affichées avec la mention « Photos : © Ô Petit Club Africain » et ne valent pas sélection. À retirer au plus tard 30 jours après le lancement, sauf nouvel accord.
+- Les anciens liens `/#confidentialite` et `/#mentions-legales` sont redirigés par `site.js` vers les nouvelles pages (le sondage ou d’anciens partages peuvent encore les utiliser).
+- Les photos de `photos/` ne sont pas affichées : ne pas les réutiliser. Les trois photos de la racine (`club-*.jpg`) (Ô Petit Club Africain) sont affichées avec la mention « Photos : © Ô Petit Club Africain » et ne valent pas sélection. À retirer au plus tard 30 jours après le lancement, sauf nouvel accord.
 - Après une modification de `site.css` ou `site.js`, changer le numéro `?v=` dans les pages pour forcer la mise à jour des navigateurs.
 
 ## 5. Formulaires Tally
