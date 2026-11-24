@@ -9,7 +9,7 @@ Contexte pour poursuivre le développement du site afromap.fr. Mise à jour : 22
 ## 1. Le projet
 
 - **AfroMap** prépare une sélection de bonnes adresses afro-caribéennes à Paris et en Île-de-France.
-- **Lancement : début 2027, en commençant exclusivement par les restaurants.** Épiceries, salons de coiffure et de beauté, événements : plus tard, à annoncer uniquement au futur, sans date.
+- **Lancement : lundi 1er février 2027 (date annoncée publiquement), en commençant exclusivement par les restaurants.** Épiceries, salons de coiffure et de beauté, événements : plus tard, à annoncer uniquement au futur, sans date.
 - **Signature officielle** : « Les bonnes adresses, choisies avec exigence. »
 - **Émotions** : confiance, clarté, excellence, authenticité. **Valeurs** : solidarité, excellence, rayonnement.
 - **Public principal** : consommatrices et consommateurs (vouvoiement, décision du 22 novembre 2026). **Second public** : restaurateurs (vouvoiement).
